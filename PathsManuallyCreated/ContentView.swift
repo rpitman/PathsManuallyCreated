@@ -21,7 +21,7 @@ struct ContentView: View {
         }.edgesIgnoringSafeArea(.all)
     }
 }
-
+ 
 struct MakeGradient: View {
     @State private var movePoints = false
     
@@ -35,7 +35,7 @@ struct MakeGradient: View {
                         .repeatForever(autoreverses: true))
             .onAppear() {
                 self.movePoints.toggle()
-            }
+        }
     }
 }
 
